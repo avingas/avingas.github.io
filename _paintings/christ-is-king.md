@@ -12,6 +12,8 @@ seo: "Christian wall art, crucifixion painting, Christ artwork, religious oil pa
 
 ![{{ page.alt_text }}]({{ site.baseurl }}{{ page.image }})
 
+!{{page.price}}
+
 **Christ is King** is a hand-painted 16×20" oil artwork that blends traditional Christian iconography with a dramatic, contemporary fine-art sensibility. Painted with rich oils on gallery-wrapped canvas, the piece features Christ on a stylized, gold-lined Byzantine cross, illuminated against a storm-laden sky shifting from deep blues to burning crimson.
 
 At the base of Golgotha lies a symbolic skull and crossbones—an ancient Christian reference to Adam, mortality, and the triumph of the King over death. The result is a visually striking and deeply devotional artwork suited for prayer rooms, home altars, chapels, or collectors of sacred imagery.
