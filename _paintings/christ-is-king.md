@@ -5,7 +5,10 @@ dimensions: "16x20 inches"
 price: "888"
 status: "available"
 image: "/assets/images/CIK_darkStudy.jpg"
+alt_text: "Painting featuring Christ on a Byzantine cross, set against a dramatic sky with symbolic Golgotha imagery. A striking devotional artwork for homes, churches, and collectors."
 ---
+
+![{{ page.alt_text }}]({{ site.baseurl }}{{ page.image }})
 
 **Christ is King** is a hand-painted 16×20" oil artwork that blends traditional Christian iconography with a dramatic, contemporary fine-art sensibility. Painted with rich oils on gallery-wrapped canvas, the piece features Christ on a stylized, gold-lined Byzantine cross, illuminated against a storm-laden sky shifting from deep blues to burning crimson.
 
