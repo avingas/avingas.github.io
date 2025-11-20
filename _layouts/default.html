@@ -1,28 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-</head>
-<body>
-  <div class="site-wrapper">
-    <header class="site-header">
-      <div class="brand">
-        <a href="{{ '/' | relative_url }}"><h1>Ant</h1></a>
-        <p class="tagline">Original works exploring the silence between light and decay</p>
-      </div>
-    </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{ page.title | default: site.title }}</title>
+    <meta
+      name="description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/styles.css' | relative_url }}"
+    />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header class="site-header">
+        <div class="brand">
+          <a href="{{ '/' | relative_url }}"><h1>Anthony Vingas</h1></a>
+          <p class="tagline">
+            Original works exploring the silence between light and decay
+          </p>
+        </div>
+      </header>
 
-    <main class="site-main">
-      {{ content }}
-    </main>
+      <main class="site-main">{{ content }}</main>
 
-    <footer class="site-footer">
-      <p>Contact &middot; <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-    </footer>
-  </div>
-</body>
+      <footer class="site-footer">
+        <p>
+          Contact &middot;
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>

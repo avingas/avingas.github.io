@@ -1,8 +1,8 @@
-title: Ant — Original Paintings
-email: contact@yourdomain.com
+title: Anthony Vingas — Original Paintings
+email: avingas@gmail.com
 description: "Original works exploring the silence between light and decay"
 baseurl: "" # the subpath of your site, e.g. /repo-name (leave blank for user pages)
-url: "https://yourusername.github.io" # replace with your site
+url: "https://art.anthonyvingas.com" # replace with your site
 theme: minima
 markdown: kramdown
 permalink: /:collection/:title/
