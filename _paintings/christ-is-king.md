@@ -1,4 +1,5 @@
 ---
+layout: "default"
 title: "Christ is King"
 medium: "Oil on canvas"
 dimensions: "16x20 inches"
@@ -6,6 +7,7 @@ price: "888"
 status: "available"
 image: "/assets/images/CIK_darkStudy.jpg"
 alt_text: "Painting featuring Christ on a Byzantine cross, set against a dramatic sky with symbolic Golgotha imagery. A striking devotional artwork for homes, churches, and collectors."
+seo: "Christian wall art, crucifixion painting, Christ artwork, religious oil painting, Christian home decor, Catholic art, Byzantine cross art, Jesus wall art, devotional painting, fine art original, sacred art, prayer room art, Christian gift ideas, Golgotha painting, Christian symbolism art."
 ---
 
 ![{{ page.alt_text }}]({{ site.baseurl }}{{ page.image }})
