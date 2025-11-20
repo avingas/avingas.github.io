@@ -1,0 +1,62 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="hero-inner">
+    <h2 class="hero-head">Original works exploring the silence between light and decay</h2>
+    <a class="btn-primary" href="#collection">View Collection</a>
+  </div>
+</section>
+
+<section id="collection" class="collection">
+  <h2>The Collection</h2>
+  <div class="grid">
+    {% for painting in site.paintings limit:6 %}
+      <article class="card">
+        <a href="{{ painting.url | relative_url }}">
+          <img src="{{ painting.image | relative_url }}" alt="{{ painting.title }}">
+        </a>
+        <div class="meta">
+          <h3>{{ painting.title }}</h3>
+          <p class="small">{{ painting.medium }} — {{ painting.dimensions }}</p>
+          <p class="price">{% if painting.status == 'sold' %}<span class="sold">SOLD</span>{% else %}${{ painting.price }}{% endif %}</p>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="story">
+  <div class="story-inner">
+    <h2>The Story</h2>
+    <div class="story-grid">
+      <div class="portrait">
+        <img src="{{ '/assets/images/A_website_mockup_for_an_artist_named_Ant_showcases.png' | relative_url }}" alt="Ant painting">
+      </div>
+      <div class="text">
+        <p>I paint between music and silence—translating sound into texture. Each piece is a fragment of a world I can't film, only feel.</p>
+        <a class="btn-secondary" href="#drop">Join Collector's List</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="drop" class="drop">
+  <h2>Shop</h2>
+  <p>Every few months, a limited collection of originals and small-run prints is released exclusively through this site. Once sold, they're archived permanently.</p>
+  <p class="note">Next drop: <strong>December 5, 2025</strong></p>
+</section>
+
+<section class="archive">
+  <h2>Collected Works</h2>
+  <div class="archive-grid">
+    {% for p in site.paintings limit:3 %}
+      <div class="thumb">
+        <img src="{{ p.image | relative_url }}" alt="{{ p.title }}">
+        <span class="status">{% if p.status == 'sold' %}SOLD{% else %}AVAILABLE{% endif %}</span>
+      </div>
+    {% endfor %}
+  </div>
+</section>
