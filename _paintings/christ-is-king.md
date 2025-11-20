@@ -2,7 +2,7 @@
 title: "Christ is King"
 medium: "Oil on canvas"
 dimensions: "16x20 inches"
-price: "$888"
+price: "888"
 status: "available"
 image: "/assets/images/CIK_darkStudy.jpg"
 ---
@@ -15,14 +15,14 @@ Every brushstroke is hand-rendered with attention to anatomy, light, and texture
 
 Perfect for:
 
--Christian art collectors
+- Christian art collectors
 
--Churches, chapels, and devotional spaces
+- Churches, chapels, and devotional spaces
 
--Homes seeking a bold statement of faith
+- Homes seeking a bold statement of faith
 
--Gifts for clergy, worship leaders, or loved ones
+- Gifts for clergy, worship leaders, or loved ones
 
--Fans of sacred art, iconography, and classical techniques
+- Fans of sacred art, iconography, and classical techniques
 
 This is a **one-of-a-kind original**, not a print.
