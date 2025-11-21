@@ -10,13 +10,10 @@ alt_text: "Painting featuring Christ on a Byzantine cross, set against a dramati
 seo: "Christian wall art, crucifixion painting, Christ artwork, religious oil painting, Christian home decor, Catholic art, Byzantine cross art, Jesus wall art, devotional painting, fine art original, sacred art, prayer room art, Christian gift ideas, Golgotha painting, Christian symbolism art."
 ---
 
-<div id="painting">
 ![{{ page.alt_text }}]({{ site.baseurl }}{{ page.image }})
-</div>
+{: #painting}
 
-<div id="description">
 **${{page.price}}**
-</div>
 
 **Christ is King** is a hand-painted 16×20" oil artwork that blends traditional Christian iconography with a dramatic, contemporary fine-art sensibility. Painted with rich oils on gallery-wrapped canvas, the piece features Christ on a stylized, gold-lined Byzantine cross, illuminated against a storm-laden sky shifting from deep blues to burning crimson.
 
@@ -37,3 +34,4 @@ Perfect for:
 - Fans of sacred art, iconography, and classical techniques
 
 This is a **one-of-a-kind original**, not a print.
+{: #description}
