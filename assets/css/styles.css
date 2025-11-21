@@ -175,13 +175,21 @@ body {
 }
 
 /* PAINTINGS STYLE */
+.site-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+img {
+  width: 100%;
+}
 #painting {
-  width: 30%;
+  width: 50%;
 }
 
 #description {
-  display: inline;
-  border: rgba(255, 255, 255, 0.03);
-  border-radius: 20px;
+  border: rgba(255, 255, 255, 0.5);
+  border-radius: 2em;
   border-style: inset;
+  padding: 2em;
 }
