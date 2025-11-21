@@ -11,7 +11,7 @@ seo: "Christian wall art, crucifixion painting, Christ artwork, religious oil pa
 ---
 
 ![{{ page.alt_text }}]({{ site.baseurl }}{{ page.image }})
-{: #painting}
+{: div#painting}
 
 **${{page.price}}**
 
