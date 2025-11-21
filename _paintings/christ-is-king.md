@@ -10,8 +10,8 @@ alt_text: "Painting featuring Christ on a Byzantine cross, set against a dramati
 seo: "Christian wall art, crucifixion painting, Christ artwork, religious oil painting, Christian home decor, Catholic art, Byzantine cross art, Jesus wall art, devotional painting, fine art original, sacred art, prayer room art, Christian gift ideas, Golgotha painting, Christian symbolism art."
 ---
 
-![{{ page.alt_text }}]({{ site.baseurl }}{{ page.image }})
-{: #painting}
+<!-- ![{{ page.alt_text }}]({{ site.baseurl }}{{ page.image }})
+{: #painting} -->
 
 **${{page.price}}**
 
@@ -34,4 +34,3 @@ Perfect for:
 - Fans of sacred art, iconography, and classical techniques
 
 This is a **one-of-a-kind original**, not a print.
-{: #description}
