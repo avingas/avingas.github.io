@@ -24,7 +24,17 @@
         </div>
       </header>
 
-      <main class="site-main">{{ content }}</main>
+      <main class="site-main">
+        <div id="painting">
+          {% for painting in site.paintings %}
+          <img
+            src="{{ painting.image | relative_url }}"
+            alt="{{ painting.title }}"
+          />
+          {% endfor %}
+        </div>
+        <div id="description">{{ content }}</div>
+      </main>
 
       <footer class="site-footer">
         <p>

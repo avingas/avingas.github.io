@@ -1,5 +1,5 @@
 ---
-layout: "default"
+layout: "painting"
 title: "Christ is King"
 medium: "Oil on canvas"
 dimensions: "16x20 inches"

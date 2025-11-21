@@ -179,6 +179,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 2em;
 }
 img {
   width: 100%;
@@ -192,4 +193,5 @@ img {
   border-radius: 2em;
   border-style: inset;
   padding: 2em;
+  width: 50%;
 }
