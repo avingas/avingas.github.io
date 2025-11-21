@@ -24,17 +24,19 @@
         </div>
       </header>
 
-      <main class="site-main">
+      <article class="paint-main">
         <div id="painting">
-          {% for painting in site.paintings %}
-          <img
-            src="{{ painting.image | relative_url }}"
-            alt="{{ painting.title }}"
-          />
-          {% endfor %}
+          <img src="{{ page.image }}" alt="{{ painting.alt_text }}" />
         </div>
+
+        <ul class="meta">
+          <li>{{ page.medium }}</li>
+          <li>{{ page.dimensions }}</li>
+          <li><strong>${{ page.price }}</strong></li>
+        </ul>
+
         <div id="description">{{ content }}</div>
-      </main>
+      </article>
 
       <footer class="site-footer">
         <p>
