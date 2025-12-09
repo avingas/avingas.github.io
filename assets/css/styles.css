@@ -170,9 +170,9 @@ body {
 /* PAINTINGS STYLE */
 .paint-main {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
-  gap: 2em;
+  gap: 1em;
 }
 
 img {
@@ -186,10 +186,11 @@ img {
 #painting {
 }
 
-#title {
-  padding: 10px 4px;
+#title-card {
+  display: flex;
+  justify-content: space-between;
 }
-#title h3 {
+#title-card h1 {
   margin: 0;
   color: #fff;
   font-size: 16px;
