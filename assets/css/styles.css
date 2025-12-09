@@ -191,9 +191,9 @@ img {
 }
 
 #description {
+  background-color: #030303;
   border: var(--accent), 2px;
   border-radius: 1.2em;
   border-style: inset;
   padding: 2em;
-  width: 50%;
 }

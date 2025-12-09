@@ -24,22 +24,23 @@
         </div>
       </header>
 
-      <article class="paint-main">
+      <div class="paint-main">
         <div id="painting">
           <img src="{{ page.image }}" alt="{{ painting.alt_text }}" />
         </div>
 
         <div class="meta">
-        <ul class="title">
-          <li><h2>{{ page.title }}</h2></li>
-          <li>{{ page.medium }}</li>
-          <li>{{ page.dimensions }}</li>
-          <li><strong>${{ page.price }}</strong></li>
-        </ul>
+          <div class="title">
+            <h1>{{ page.title }}</h1>
+            <section>
+              {{ page.medium }} {{ page.dimensions }}
+              <strong>${{ page.price }}</strong>
+            </section>
+          </div>
 
-        <div id="description">{{ content }}</div>
-      </article>
+          <div id="description">{{ content }}</div>
         </div>
+      </div>
 
       <footer class="site-footer">
         <p>
