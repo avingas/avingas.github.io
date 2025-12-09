@@ -29,12 +29,13 @@
           <img src="{{ page.image }}" alt="{{ painting.alt_text }}" />
         </div>
 
-        <div class="meta">
-          <div class="title">
+        <div id="meta">
+          <div id="title">
             <h1>{{ page.title }}</h1>
             <section>
-              {{ page.medium }} {{ page.dimensions }}
-              <strong>${{ page.price }}</strong>
+              <div id="medium">{{ page.medium }}</div>
+              <div id="size">{{ page.dimensions }}</div>
+              <div id="price"><strong>${{ page.price }}</strong></div>
             </section>
           </div>
 
